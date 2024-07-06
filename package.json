@@ -1,0 +1,16 @@
+{
+  "name": "getting-started-mqtt",
+  "version": "1.0.0",
+  "description": "```bash docker compose up -d docker compose down ```",
+  "main": "index.js",
+  "scripts": {
+    "publisher": "node publisher.js",
+    "subscriber": "node subscriber.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mqtt": "^5.7.0"
+  }
+}
